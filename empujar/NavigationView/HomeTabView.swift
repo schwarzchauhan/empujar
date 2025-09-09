@@ -1,0 +1,31 @@
+//
+//  HomeTabView.swift
+//  empujar
+//
+//  Created by Harsh Chauhan on 9/9/25.
+//
+
+import SwiftUI
+
+struct HomeTabView: View {
+    var body: some View {
+        TabView {
+            Dashboard()
+                .tabItem() {
+                    Image (systemName: "house.circle.fill")
+                    Text ("Dashboard")
+                }
+            Hitchhikings()
+                .tabItem() {
+                    Image (systemName: "figure.hiking.circle")
+                    Text ("Hitchhiking")
+                }
+        }
+    }
+}
+
+struct HomeTabView_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeTabView()
+    }
+}
