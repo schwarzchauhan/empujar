@@ -20,6 +20,7 @@ struct HomeTabView: View {
                     Image (systemName: "figure.hiking.circle")
                     Text ("Hitchhiking")
                 }
+            // TODO: - HARSH CHAUHAN add badges as well
         }
     }
 }
