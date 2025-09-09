@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0A26A1E065BD827B8C1C5DB1 /* Pods_empujarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F9F6261D11F9C88E5A0C63 /* Pods_empujarTests.framework */; };
+		852C62997305536054875F04 /* Pods_empujar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEE1BE3B3F1C6866C8FF9C8 /* Pods_empujar.framework */; };
+		A15FE590F6002FBE326F17CF /* Pods_empujar_empujarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612DB6F92704982BDDC9040F /* Pods_empujar_empujarUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8DB362242E6D972D00FEA0A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37F9F6261D11F9C88E5A0C63 /* Pods_empujarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_empujarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7D64CAFB68D2C151E33C71 /* Pods-empujar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-empujar.debug.xcconfig"; path = "Target Support Files/Pods-empujar/Pods-empujar.debug.xcconfig"; sourceTree = "<group>"; };
+		5CEE1BE3B3F1C6866C8FF9C8 /* Pods_empujar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_empujar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		612DB6F92704982BDDC9040F /* Pods_empujar_empujarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_empujar_empujarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB3620D2E6D972B00FEA0A3 /* empujar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = empujar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB362232E6D972D00FEA0A3 /* empujarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = empujarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB3622D2E6D972D00FEA0A3 /* empujarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = empujarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE0D073134B565FD15BBC97 /* Pods-empujar-empujarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-empujar-empujarUITests.release.xcconfig"; path = "Target Support Files/Pods-empujar-empujarUITests/Pods-empujar-empujarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7CAF919C6A203C68A65E972 /* Pods-empujar-empujarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-empujar-empujarUITests.debug.xcconfig"; path = "Target Support Files/Pods-empujar-empujarUITests/Pods-empujar-empujarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB7075BA83E2F261A3900C6B /* Pods-empujar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-empujar.release.xcconfig"; path = "Target Support Files/Pods-empujar/Pods-empujar.release.xcconfig"; sourceTree = "<group>"; };
+		E01601B64801761B9D4A6CDC /* Pods-empujarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-empujarTests.debug.xcconfig"; path = "Target Support Files/Pods-empujarTests/Pods-empujarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD54F976A4A85DEC3A1CD32 /* Pods-empujarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-empujarTests.release.xcconfig"; path = "Target Support Files/Pods-empujarTests/Pods-empujarTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,11 +65,15 @@
 		};
 		8DB362262E6D972D00FEA0A3 /* empujarTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = empujarTests;
 			sourceTree = "<group>";
 		};
 		8DB362302E6D972D00FEA0A3 /* empujarUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = empujarUITests;
 			sourceTree = "<group>";
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852C62997305536054875F04 /* Pods_empujar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A26A1E065BD827B8C1C5DB1 /* Pods_empujarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +100,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A15FE590F6002FBE326F17CF /* Pods_empujar_empujarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45296373CF0C107506868DFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C7D64CAFB68D2C151E33C71 /* Pods-empujar.debug.xcconfig */,
+				DB7075BA83E2F261A3900C6B /* Pods-empujar.release.xcconfig */,
+				D7CAF919C6A203C68A65E972 /* Pods-empujar-empujarUITests.debug.xcconfig */,
+				AAE0D073134B565FD15BBC97 /* Pods-empujar-empujarUITests.release.xcconfig */,
+				E01601B64801761B9D4A6CDC /* Pods-empujarTests.debug.xcconfig */,
+				FDD54F976A4A85DEC3A1CD32 /* Pods-empujarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8DB362042E6D972B00FEA0A3 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +127,8 @@
 				8DB362262E6D972D00FEA0A3 /* empujarTests */,
 				8DB362302E6D972D00FEA0A3 /* empujarUITests */,
 				8DB3620E2E6D972B00FEA0A3 /* Products */,
+				45296373CF0C107506868DFC /* Pods */,
+				BDBA0B8C2FABDDB42E605787 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +142,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BDBA0B8C2FABDDB42E605787 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CEE1BE3B3F1C6866C8FF9C8 /* Pods_empujar.framework */,
+				612DB6F92704982BDDC9040F /* Pods_empujar_empujarUITests.framework */,
+				37F9F6261D11F9C88E5A0C63 /* Pods_empujarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +159,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DB362362E6D972D00FEA0A3 /* Build configuration list for PBXNativeTarget "empujar" */;
 			buildPhases = (
+				7DF4D3A2D45943F3B44F18EF /* [CP] Check Pods Manifest.lock */,
 				8DB362092E6D972B00FEA0A3 /* Sources */,
 				8DB3620A2E6D972B00FEA0A3 /* Frameworks */,
 				8DB3620B2E6D972B00FEA0A3 /* Resources */,
@@ -124,8 +172,6 @@
 				8DB3620F2E6D972B00FEA0A3 /* empujar */,
 			);
 			name = empujar;
-			packageProductDependencies = (
-			);
 			productName = empujar;
 			productReference = 8DB3620D2E6D972B00FEA0A3 /* empujar.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DB3623B2E6D972D00FEA0A3 /* Build configuration list for PBXNativeTarget "empujarTests" */;
 			buildPhases = (
+				782E6F31420DF48FCA1411B4 /* [CP] Check Pods Manifest.lock */,
 				8DB3621F2E6D972D00FEA0A3 /* Sources */,
 				8DB362202E6D972D00FEA0A3 /* Frameworks */,
 				8DB362212E6D972D00FEA0A3 /* Resources */,
@@ -147,8 +194,6 @@
 				8DB362262E6D972D00FEA0A3 /* empujarTests */,
 			);
 			name = empujarTests;
-			packageProductDependencies = (
-			);
 			productName = empujarTests;
 			productReference = 8DB362232E6D972D00FEA0A3 /* empujarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DB3623E2E6D972D00FEA0A3 /* Build configuration list for PBXNativeTarget "empujarUITests" */;
 			buildPhases = (
+				A7D96247DC70A2A8F112E7B3 /* [CP] Check Pods Manifest.lock */,
 				8DB362292E6D972D00FEA0A3 /* Sources */,
 				8DB3622A2E6D972D00FEA0A3 /* Frameworks */,
 				8DB3622B2E6D972D00FEA0A3 /* Resources */,
@@ -170,8 +216,6 @@
 				8DB362302E6D972D00FEA0A3 /* empujarUITests */,
 			);
 			name = empujarUITests;
-			packageProductDependencies = (
-			);
 			productName = empujarUITests;
 			productReference = 8DB3622D2E6D972D00FEA0A3 /* empujarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +288,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		782E6F31420DF48FCA1411B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-empujarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DF4D3A2D45943F3B44F18EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-empujar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7D96247DC70A2A8F112E7B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-empujar-empujarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8DB362092E6D972B00FEA0A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,12 +397,15 @@
 /* Begin XCBuildConfiguration section */
 		8DB362372E6D972D00FEA0A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7D64CAFB68D2C151E33C71 /* Pods-empujar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = empujar/empujar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7QCTDV3C2Y;
+				DEVELOPMENT_TEAM = SJ6YLZLZSA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = empujar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -297,13 +413,15 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.schwarz.empujar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schwarz.empujarejemplo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -316,12 +434,15 @@
 		};
 		8DB362382E6D972D00FEA0A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB7075BA83E2F261A3900C6B /* Pods-empujar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = empujar/empujar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7QCTDV3C2Y;
+				DEVELOPMENT_TEAM = SJ6YLZLZSA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = empujar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -329,13 +450,15 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.schwarz.empujar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.schwarz.empujarejemplo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -469,6 +592,7 @@
 		};
 		8DB3623C2E6D972D00FEA0A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E01601B64801761B9D4A6CDC /* Pods-empujarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +615,7 @@
 		};
 		8DB3623D2E6D972D00FEA0A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD54F976A4A85DEC3A1CD32 /* Pods-empujarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +638,7 @@
 		};
 		8DB3623F2E6D972D00FEA0A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CAF919C6A203C68A65E972 /* Pods-empujar-empujarUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -533,6 +659,7 @@
 		};
 		8DB362402E6D972D00FEA0A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAE0D073134B565FD15BBC97 /* Pods-empujar-empujarUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

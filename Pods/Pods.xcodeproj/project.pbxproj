@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		787667691123B1B2AF73AC734419FCAC /* Pods-empujarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B113F9D9B41EEBC9868D2D7889801020 /* Pods-empujarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B331ACD73C48BBCE46FD3279987665D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		A56D43C765BAE0F705B5C5080489BD56 /* Pods-empujar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4821CE0ADA22DCAC36AE3C401ECA044E /* Pods-empujar-dummy.m */; };
+		AD16923AEB747E7EBFABB519A2A34A2E /* Pods-empujarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1622796E3507B581B42AFDDF52FFD4 /* Pods-empujarTests-dummy.m */; };
+		BEB57C17368D553A2EA17BC25B3BE2D9 /* Pods-empujar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56961E802AD92B97679B6597BD653CED /* Pods-empujar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF134C1C6861943DCA35A022C980C087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		DFA70FCBA2C989B17C3ECA2353036A4F /* Pods-empujar-empujarUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9140BA380D43B41AB5BDD70774E44BF0 /* Pods-empujar-empujarUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F6967AA59F0C85D8C27B06FAB82C54 /* Pods-empujar-empujarUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4678970B2F176599D490A74FC873D0 /* Pods-empujar-empujarUITests-dummy.m */; };
+		FC474AFFAE5B371C9E31561A108717F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35CB654538BB4996DEAAA70E7C26E0E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A264FC16A9522E9AE31904E28805AA92;
+			remoteInfo = "Pods-empujar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12B4F8D55AB8299568A5148BA3A54ABC /* Pods-empujar-empujarUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-empujar-empujarUITests-Info.plist"; sourceTree = "<group>"; };
+		1794A6F58CC201C7AA74038A41558B74 /* Pods-empujar-empujarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-empujar-empujarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		191C462A78E377F9EB18F938B5A958D2 /* Pods-empujar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-empujar-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D517BFF550F4C941886E8F661C15A87 /* Pods-empujar-empujarUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-empujar-empujarUITests.modulemap"; sourceTree = "<group>"; };
+		26A2B51B2212870C391957F08B288E04 /* Pods-empujarTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-empujarTests-Info.plist"; sourceTree = "<group>"; };
+		299C70016504FCC6D9EE54EDB4AD1F9A /* Pods-empujar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-empujar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C983324A693F7D2CD6D6939C9E63A6F /* Pods-empujar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-empujar-Info.plist"; sourceTree = "<group>"; };
+		3D4678970B2F176599D490A74FC873D0 /* Pods-empujar-empujarUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-empujar-empujarUITests-dummy.m"; sourceTree = "<group>"; };
+		45337E13A52043897042F3570C3BE5C0 /* Pods-empujarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-empujarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45BE2B2269F3956564B2F27884E0AD4B /* Pods-empujarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-empujarTests.release.xcconfig"; sourceTree = "<group>"; };
+		4821CE0ADA22DCAC36AE3C401ECA044E /* Pods-empujar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-empujar-dummy.m"; sourceTree = "<group>"; };
+		54DDBDD630DEA855BFA566E456685B58 /* Pods-empujar-empujarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-empujar-empujarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56961E802AD92B97679B6597BD653CED /* Pods-empujar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-empujar-umbrella.h"; sourceTree = "<group>"; };
+		57775360497A0DD6E648F245DABFB4CD /* Pods-empujar-empujarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-empujar-empujarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62510D9321D2645156AF242DC2D26043 /* Pods-empujar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-empujar"; path = Pods_empujar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1622796E3507B581B42AFDDF52FFD4 /* Pods-empujarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-empujarTests-dummy.m"; sourceTree = "<group>"; };
+		6EC036DB5E2AD3AEB8E02130E543C7E0 /* Pods-empujar-empujarUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-empujar-empujarUITests"; path = Pods_empujar_empujarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77AB60E951EA43115FE3D454CBAFF9E8 /* Pods-empujarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-empujarTests.modulemap"; sourceTree = "<group>"; };
+		7FFC83E137643784E0D818C8BF3D679D /* Pods-empujarTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-empujarTests"; path = Pods_empujarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		896767254C2F41F161F2CA2D6BD27B74 /* Pods-empujarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-empujarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9140BA380D43B41AB5BDD70774E44BF0 /* Pods-empujar-empujarUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-empujar-empujarUITests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FB95CE4CE52374B7A9675E3CDF74442 /* Pods-empujar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-empujar.release.xcconfig"; sourceTree = "<group>"; };
+		A6058FF44075B593EC1E25DC1339D3F4 /* Pods-empujar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-empujar.modulemap"; sourceTree = "<group>"; };
+		B113F9D9B41EEBC9868D2D7889801020 /* Pods-empujarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-empujarTests-umbrella.h"; sourceTree = "<group>"; };
+		DB016B8C51593DCDBED55319E5982BA2 /* Pods-empujarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-empujarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EECAF4F95FB809C8F80BBD1BF452B3E4 /* Pods-empujar-empujarUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-empujar-empujarUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6233A690E653978BB4E2970E6E90FE6 /* Pods-empujar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-empujar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AB8C49B4439787D5B7AF0E595A46542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC474AFFAE5B371C9E31561A108717F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2973144280E4A6E2C3C870CC8913B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF134C1C6861943DCA35A022C980C087 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7057BDDE6A607500BB3E00564CCD96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B331ACD73C48BBCE46FD3279987665D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EBE96CFAE3CFC9887DC0BAD1540793C /* Pods-empujarTests */ = {
+			isa = PBXGroup;
+			children = (
+				77AB60E951EA43115FE3D454CBAFF9E8 /* Pods-empujarTests.modulemap */,
+				DB016B8C51593DCDBED55319E5982BA2 /* Pods-empujarTests-acknowledgements.markdown */,
+				896767254C2F41F161F2CA2D6BD27B74 /* Pods-empujarTests-acknowledgements.plist */,
+				6C1622796E3507B581B42AFDDF52FFD4 /* Pods-empujarTests-dummy.m */,
+				26A2B51B2212870C391957F08B288E04 /* Pods-empujarTests-Info.plist */,
+				B113F9D9B41EEBC9868D2D7889801020 /* Pods-empujarTests-umbrella.h */,
+				45337E13A52043897042F3570C3BE5C0 /* Pods-empujarTests.debug.xcconfig */,
+				45BE2B2269F3956564B2F27884E0AD4B /* Pods-empujarTests.release.xcconfig */,
+			);
+			name = "Pods-empujarTests";
+			path = "Target Support Files/Pods-empujarTests";
+			sourceTree = "<group>";
+		};
+		41F941329138D0844E6407275DE2EFFF /* Pods-empujar-empujarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D517BFF550F4C941886E8F661C15A87 /* Pods-empujar-empujarUITests.modulemap */,
+				1794A6F58CC201C7AA74038A41558B74 /* Pods-empujar-empujarUITests-acknowledgements.markdown */,
+				EECAF4F95FB809C8F80BBD1BF452B3E4 /* Pods-empujar-empujarUITests-acknowledgements.plist */,
+				3D4678970B2F176599D490A74FC873D0 /* Pods-empujar-empujarUITests-dummy.m */,
+				12B4F8D55AB8299568A5148BA3A54ABC /* Pods-empujar-empujarUITests-Info.plist */,
+				9140BA380D43B41AB5BDD70774E44BF0 /* Pods-empujar-empujarUITests-umbrella.h */,
+				54DDBDD630DEA855BFA566E456685B58 /* Pods-empujar-empujarUITests.debug.xcconfig */,
+				57775360497A0DD6E648F245DABFB4CD /* Pods-empujar-empujarUITests.release.xcconfig */,
+			);
+			name = "Pods-empujar-empujarUITests";
+			path = "Target Support Files/Pods-empujar-empujarUITests";
+			sourceTree = "<group>";
+		};
+		6420C023658835CC0C3B9F1BA82D1BA4 /* Pods-empujar */ = {
+			isa = PBXGroup;
+			children = (
+				A6058FF44075B593EC1E25DC1339D3F4 /* Pods-empujar.modulemap */,
+				299C70016504FCC6D9EE54EDB4AD1F9A /* Pods-empujar-acknowledgements.markdown */,
+				191C462A78E377F9EB18F938B5A958D2 /* Pods-empujar-acknowledgements.plist */,
+				4821CE0ADA22DCAC36AE3C401ECA044E /* Pods-empujar-dummy.m */,
+				3C983324A693F7D2CD6D6939C9E63A6F /* Pods-empujar-Info.plist */,
+				56961E802AD92B97679B6597BD653CED /* Pods-empujar-umbrella.h */,
+				F6233A690E653978BB4E2970E6E90FE6 /* Pods-empujar.debug.xcconfig */,
+				9FB95CE4CE52374B7A9675E3CDF74442 /* Pods-empujar.release.xcconfig */,
+			);
+			name = "Pods-empujar";
+			path = "Target Support Files/Pods-empujar";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DE2AB5FA45AA2CE919E24BCFB009E111 /* Products */,
+				D1D0CFF1358610002082B9C553C055B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1D0CFF1358610002082B9C553C055B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6420C023658835CC0C3B9F1BA82D1BA4 /* Pods-empujar */,
+				41F941329138D0844E6407275DE2EFFF /* Pods-empujar-empujarUITests */,
+				1EBE96CFAE3CFC9887DC0BAD1540793C /* Pods-empujarTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE2AB5FA45AA2CE919E24BCFB009E111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62510D9321D2645156AF242DC2D26043 /* Pods-empujar */,
+				6EC036DB5E2AD3AEB8E02130E543C7E0 /* Pods-empujar-empujarUITests */,
+				7FFC83E137643784E0D818C8BF3D679D /* Pods-empujarTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B23E8160F4A8B8C9C665A77EA9062088 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787667691123B1B2AF73AC734419FCAC /* Pods-empujarTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE5E60B676F8DD52A742FCB97C65CEF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA70FCBA2C989B17C3ECA2353036A4F /* Pods-empujar-empujarUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA97708E151397CCD251DC646C5428E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB57C17368D553A2EA17BC25B3BE2D9 /* Pods-empujar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A942DB63C723BD3186A2A13DEB8FDF5 /* Pods-empujarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69047C3E33CC7BD6224F86C73A2DFFD2 /* Build configuration list for PBXNativeTarget "Pods-empujarTests" */;
+			buildPhases = (
+				B23E8160F4A8B8C9C665A77EA9062088 /* Headers */,
+				E9E5737BE492808716A038BEFAE5B4DD /* Sources */,
+				B2973144280E4A6E2C3C870CC8913B55 /* Frameworks */,
+				0D2D5021464E84476FD82992864757C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADFD84786CAF33BF3F06ACBF331D4A66 /* PBXTargetDependency */,
+			);
+			name = "Pods-empujarTests";
+			productName = Pods_empujarTests;
+			productReference = 7FFC83E137643784E0D818C8BF3D679D /* Pods-empujarTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		68409F97C47A49767B5827F62EFB835C /* Pods-empujar-empujarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC64F94C0E6B563D8B80D13CD77A48B /* Build configuration list for PBXNativeTarget "Pods-empujar-empujarUITests" */;
+			buildPhases = (
+				DE5E60B676F8DD52A742FCB97C65CEF0 /* Headers */,
+				FF03F58FCFF0A18524B3E54890606CFC /* Sources */,
+				9AB8C49B4439787D5B7AF0E595A46542 /* Frameworks */,
+				BB8FBC8E212B1E624EBDD417C98F7ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-empujar-empujarUITests";
+			productName = Pods_empujar_empujarUITests;
+			productReference = 6EC036DB5E2AD3AEB8E02130E543C7E0 /* Pods-empujar-empujarUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A264FC16A9522E9AE31904E28805AA92 /* Pods-empujar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA523064DA4CD5AA7B91F94B82D186E /* Build configuration list for PBXNativeTarget "Pods-empujar" */;
+			buildPhases = (
+				EFA97708E151397CCD251DC646C5428E /* Headers */,
+				6E3CB4966F5A046A22D77E10BACA6676 /* Sources */,
+				C7057BDDE6A607500BB3E00564CCD96B /* Frameworks */,
+				B56DB93BCE8BB84DA0DF5FBE94A711B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-empujar";
+			productName = Pods_empujar;
+			productReference = 62510D9321D2645156AF242DC2D26043 /* Pods-empujar */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DE2AB5FA45AA2CE919E24BCFB009E111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A264FC16A9522E9AE31904E28805AA92 /* Pods-empujar */,
+				68409F97C47A49767B5827F62EFB835C /* Pods-empujar-empujarUITests */,
+				1A942DB63C723BD3186A2A13DEB8FDF5 /* Pods-empujarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D2D5021464E84476FD82992864757C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B56DB93BCE8BB84DA0DF5FBE94A711B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB8FBC8E212B1E624EBDD417C98F7ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E3CB4966F5A046A22D77E10BACA6676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56D43C765BAE0F705B5C5080489BD56 /* Pods-empujar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9E5737BE492808716A038BEFAE5B4DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD16923AEB747E7EBFABB519A2A34A2E /* Pods-empujarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF03F58FCFF0A18524B3E54890606CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F6967AA59F0C85D8C27B06FAB82C54 /* Pods-empujar-empujarUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADFD84786CAF33BF3F06ACBF331D4A66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-empujar";
+			target = A264FC16A9522E9AE31904E28805AA92 /* Pods-empujar */;
+			targetProxy = 35CB654538BB4996DEAAA70E7C26E0E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03633D9511127D19D8FA31C845F01AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BE2B2269F3956564B2F27884E0AD4B /* Pods-empujarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-empujarTests/Pods-empujarTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-empujarTests/Pods-empujarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BA524647A8C0CAD2B9E8AD90563B295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6233A690E653978BB4E2970E6E90FE6 /* Pods-empujar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-empujar/Pods-empujar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-empujar/Pods-empujar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C88778BF23371314C3BED819A498E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB95CE4CE52374B7A9675E3CDF74442 /* Pods-empujar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-empujar/Pods-empujar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-empujar/Pods-empujar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83A584CFD97331F511CFB94BE214D7D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45337E13A52043897042F3570C3BE5C0 /* Pods-empujarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-empujarTests/Pods-empujarTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-empujarTests/Pods-empujarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A6A09F05A77443305D321A62E27FFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54DDBDD630DEA855BFA566E456685B58 /* Pods-empujar-empujarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-empujar-empujarUITests/Pods-empujar-empujarUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-empujar-empujarUITests/Pods-empujar-empujarUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6E0CECADA6E2DAF393B7CFA4A4247CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57775360497A0DD6E648F245DABFB4CD /* Pods-empujar-empujarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-empujar-empujarUITests/Pods-empujar-empujarUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-empujar-empujarUITests/Pods-empujar-empujarUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC5A9E366622BBEC241FA7FF31E0F8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C6BB564B74ECA2B1E05EBAC95B0BF7C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BB564B74ECA2B1E05EBAC95B0BF7C8 /* Debug */,
+				BC5A9E366622BBEC241FA7FF31E0F8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA523064DA4CD5AA7B91F94B82D186E /* Build configuration list for PBXNativeTarget "Pods-empujar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA524647A8C0CAD2B9E8AD90563B295 /* Debug */,
+				39C88778BF23371314C3BED819A498E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC64F94C0E6B563D8B80D13CD77A48B /* Build configuration list for PBXNativeTarget "Pods-empujar-empujarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6A09F05A77443305D321A62E27FFC3 /* Debug */,
+				A6E0CECADA6E2DAF393B7CFA4A4247CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69047C3E33CC7BD6224F86C73A2DFFD2 /* Build configuration list for PBXNativeTarget "Pods-empujarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A584CFD97331F511CFB94BE214D7D2 /* Debug */,
+				03633D9511127D19D8FA31C845F01AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
