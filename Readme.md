@@ -1,0 +1,5 @@
+
+
+| Shortcut | action | .. |
+|---|---|---|
+| ⌘ ⌥ ⌃  | New Group | .. |
