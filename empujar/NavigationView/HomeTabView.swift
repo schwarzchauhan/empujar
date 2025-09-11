@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct HomeTabView: View {
+    
+    init() {
+        NavigationUtils.setAppearance(backgroundColor: .systemGray6)
+    }
+    
     var body: some View {
         TabView {
             Dashboard()
