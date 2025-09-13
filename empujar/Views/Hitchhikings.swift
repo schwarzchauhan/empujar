@@ -16,6 +16,7 @@ struct Hitchhikings: View {
             Image(systemName: "figure.hiking.circle.fill")
                 .resizable()
                 .frame(width: 200, height: 200)
+            Vivienda()
         }
     }
 }
