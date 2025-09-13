@@ -15,7 +15,7 @@ struct Hitchhikings: View {
             
             Image(systemName: "figure.hiking.circle.fill")
                 .resizable()
-                .frame(width: 200, height: 200)
+                .frame(width: 200, height: 200) // TODO: - HARSH CHAUHAN when i scroll up , then Image(systemName: "figure.hiking.circle.fill") size should decrease and it should be sticky 
             Vivienda()
         }
     }
