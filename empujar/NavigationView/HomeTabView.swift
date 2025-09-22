@@ -25,6 +25,11 @@ struct HomeTabView: View {
                     Image (systemName: "figure.hiking.circle")
                     Text ("Hitchhiking")
                 }
+            QRSCannerView()
+                .tabItem() {
+                    Image(systemName: "qrcode.viewfinder")
+                    Text("QR Scanner")
+                }
             // TODO: - HARSH CHAUHAN add badges as well
         }
     }

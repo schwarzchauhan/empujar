@@ -406,8 +406,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SJ6YLZLZSA;
+				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = empujar/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app use the Camera for Creating custom Gallery ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -443,8 +445,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = SJ6YLZLZSA;
+				ENABLE_RESOURCE_ACCESS_CAMERA = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = empujar/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app use the Camera for Creating custom Gallery ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
