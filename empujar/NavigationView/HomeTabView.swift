@@ -30,6 +30,11 @@ struct HomeTabView: View {
                     Image(systemName: "qrcode.viewfinder")
                     Text("QR Scanner")
                 }
+            KitInSwiftUiEx()
+                .tabItem() {
+                    Image(systemName: "character.textbox.badge.sparkles")
+                    Text("Kit in SwiftUI")
+                }
             // TODO: - HARSH CHAUHAN add badges as well
         }
     }
