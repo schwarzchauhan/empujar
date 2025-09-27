@@ -10,6 +10,7 @@ import Combine
 
 class ContentVM: ObservableObject {
     @Published var timer: Int = 0
+    var messages = ["Harsh Chauhan gotta be a long text so it takes up multiple lines", "Harsh", "Chauhan", "Is", "Great"]
     
     init() {
         createDefaultTimer()
@@ -57,6 +58,31 @@ struct KitInSwiftUiEx: View {
                 UITextFieldViewRepresentable(text: $text, placeholder: placeHolder, placeholderColor: UIColor.red.withAlphaComponent(0.5))
             }
             
+            // MARK: ViewThatFits example
+            ViewThatFitsEx
+            
+        }
+    }
+    
+    var ViewThatFitsEx: some View {
+        VStack(alignment: .leading, spacing: 20) {
+            ForEach(vm.messages, id: \.self) { msg in
+                HStack {
+                    Image(systemName: "pencil.line")
+                    ViewThatFits {
+                        Text(msg)
+                            .fixedSize(horizontal: false, vertical: true)
+                        HStack {
+                            Text(msg)
+                                .lineLimit(2)
+                            Button("more") {
+                                // action
+                            }
+                        }
+                    }
+                    
+                }
+            }
         }
     }
     
