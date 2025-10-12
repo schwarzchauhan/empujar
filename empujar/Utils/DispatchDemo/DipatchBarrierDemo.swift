@@ -44,3 +44,9 @@ struct Ticket {
     var number: Int
     var name: String
 }
+
+
+// DispatchWorkItem
+// can't cancel once the operation is started
+// user for frequent calls like autosuggest on typing etc.
+//DispatchQueue.global().asyncAfter(deadline: .now() + .milliseconds(500), execute: requestWorkItem)
