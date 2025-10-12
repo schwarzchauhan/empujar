@@ -38,5 +38,7 @@ class ViewController: UIViewController {
         
         // 7. Notify the hosting controller that it has been moved to a parent
         hostingController.didMove(toParent: self)
+        
+        DipatchBarrierDemoVM().buyTickets()
     }
 }
