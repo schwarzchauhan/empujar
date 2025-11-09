@@ -37,4 +37,36 @@ class CameraManager: NSObject {
             return isAuthorized
         }
     }
+    
+    private var addToPreviewStream: ((CGImage) -> Void)?
+    
+    lazy var previewStream: AsyncStream<CGImage> = {
+        AsyncStream { continuation in
+            addToPreviewStream = { cgImage in
+                continuation.yield(cgImage)
+            }
+        }
+    }()
+    
+    
+    
+    override init() {
+        super.init()
+        
+        Task {
+            await configureSession()
+            await startSession()
+        }
+    }
+    
+    // 2.
+    private func configureSession() async {
+        
+    }
+    
+    // 3.
+    private func startSession() async {
+        
+    }
+    
 }
