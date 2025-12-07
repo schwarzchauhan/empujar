@@ -8,38 +8,35 @@
 import SwiftUI
 
 struct MyViewBuilderEx: View {
-    @State var isEditable: Bool = false
-    @State var name: String = ""
+    @State private var vm = CameraVM()
+    
+    
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 0) {
-            editableView
-            editableBuilderView
-        }
-        .padding(0)
-        .type()
-    }
-    
-    
-    
-    private var editableView: some View {
-        if isEditable {
-            return AnyView(TextField("Enter the name", text: $name))
-        } else {
-            return AnyView(Text(name))
-        }
-    }
-    
-    @ViewBuilder // no need of explicit return here
-    private var editableBuilderView: some View {
-        if isEditable {
-            TextField("Enter the name", text: $name)
-        } else {
-            Text(name)
-        }
+        CamerView(image: $vm.currentFrame)
     }
 }
 
+
+struct CamerView: View {
+    @Binding var image: CGImage?
+    
+    var body: some View {
+        GeometryReader { geometry in
+            if let image = image {
+                Image(decorative: image, scale: 1)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: geometry.size.width,
+                           height: geometry.size.height)
+            } else {
+                ContentUnavailableView("No camera feed", systemImage: "xmark.circle.fill")
+                    .frame(width: geometry.size.width,
+                           height: geometry.size.height)
+            }
+        }
+    }
+}
 
 extension View {
     func type() -> some View {

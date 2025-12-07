@@ -7,6 +7,7 @@
 
 import Foundation
 import AVFoundation
+import CoreImage
 
 // TODO: - HARSH CHAUHAN https://www.createwithswift.com/camera-capture-setup-in-a-swiftui-app/
 class CameraManager: NSObject {
@@ -48,8 +49,6 @@ class CameraManager: NSObject {
         }
     }()
     
-    
-    
     override init() {
         super.init()
         
@@ -61,12 +60,88 @@ class CameraManager: NSObject {
     
     // 2.
     private func configureSession() async {
+        // 1.
+        guard await isAuthorized,
+              let systemPreferredCamera,
+              let deviceInput = try? AVCaptureDeviceInput(device: systemPreferredCamera)
+        else { return }
+        
+        // 2.
+        captureSession.beginConfiguration()
+        
+        // 3.
+        defer {
+            self.captureSession.commitConfiguration()
+        }
+        
+        // 4.
+        let videoOutput = AVCaptureVideoDataOutput()
+        videoOutput.setSampleBufferDelegate(self, queue: sessionQueue)
+        
+        // 5.
+        guard captureSession.canAddInput(deviceInput) else {
+            print("Unable to add device input to capture session.")
+            return
+        }
+        
+        // 6.
+        guard captureSession.canAddOutput(videoOutput) else {
+            print("Unable to add video output to capture session.")
+            return
+        }
+        
+        // 7.
+        captureSession.addInput(deviceInput)
+        captureSession.addOutput(videoOutput)
         
     }
     
     // 3.
     private func startSession() async {
+        /// Checking authorization
+        guard await isAuthorized else { return }
+        /// Start the capture session flow of data
+        captureSession.startRunning()
+    }
+    
+}
+
+extension CMSampleBuffer {
+    
+    var cgImage: CGImage? {
+        let pixelBuffer: CVPixelBuffer? = CMSampleBufferGetImageBuffer(self)
         
+        guard let imagePixelBuffer = pixelBuffer else {
+            return nil
+        }
+        
+        return CIImage(cvPixelBuffer: imagePixelBuffer).cgImage
+    }
+    
+}
+
+
+extension CIImage {
+    
+    var cgImage: CGImage? {
+        let ciContext = CIContext()
+        
+        guard let cgImage = ciContext.createCGImage(self, from: self.extent) else {
+            return nil
+        }
+        
+        return cgImage
+    }
+    
+}
+
+extension CameraManager: AVCaptureVideoDataOutputSampleBufferDelegate {
+    
+    func captureOutput(_ output: AVCaptureOutput,
+                       didOutput sampleBuffer: CMSampleBuffer,
+                       from connection: AVCaptureConnection) {
+        guard let currentFrame = sampleBuffer.cgImage else { return }
+        addToPreviewStream?(currentFrame)
     }
     
 }
