@@ -12,11 +12,16 @@ import UserNotifications
 
 class ViewController: UIViewController {
 
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self, name: .loginSuccess, object: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // 2. Create an instance of your SwiftUI view
-        let homeTabView = HomeTabView()
+        let homeTabView = HomeTabView(delegate: self)
         
         // 3. Create a UIHostingController with your SwiftUI view
         let hostingController = UIHostingController(rootView: homeTabView)
@@ -40,5 +45,30 @@ class ViewController: UIViewController {
         hostingController.didMove(toParent: self)
         
         DipatchBarrierDemoVM().buyTickets()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(loginSuccess), name: .loginSuccess, object: nil)
     }
+    
+    @objc func loginSuccess(_ notification: Notification) {
+        let userInfo = notification.userInfo?["userInfo"] as? [String: Any]
+        let object = notification.object as? [String: Any]
+        print(userInfo)
+        print(object)
+        print("loginSuccess")
+    }
+    
+    func postNotification() {
+        let loginResponse: [String: Any] = ["userInfo": ["userId": "12345", "name": "N"]]
+        NotificationCenter.default.post(name: .loginSuccess, object: loginResponse, userInfo: loginResponse)
+    }
+}
+
+extension ViewController: HomeTabViewDelegate {
+    func didLogin() {
+        postNotification()
+    }
+}
+
+extension Notification.Name {
+    static let loginSuccess = Notification.Name("loginSuccess")
 }

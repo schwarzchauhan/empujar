@@ -9,11 +9,13 @@ import SwiftUI
 
 struct MyViewBuilderEx: View {
     @State private var vm = CameraVM()
-    
-    
+    let homeVM: HomeVM
     
     var body: some View {
         CamerView(image: $vm.currentFrame)
+            .onAppear {
+                homeVM.delegate?.didLogin()
+            }
     }
 }
 

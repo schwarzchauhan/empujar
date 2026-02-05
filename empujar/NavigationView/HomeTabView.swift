@@ -7,11 +7,26 @@
 
 import SwiftUI
 
+protocol HomeTabViewDelegate: AnyObject {
+    func didLogin()
+}
+
+class HomeVM {
+    private(set) weak var delegate: HomeTabViewDelegate?
+    
+    init(delegate: HomeTabViewDelegate? = nil) {
+        self.delegate = delegate
+    }
+
+}
 struct HomeTabView: View {
     
     private var pages: [EmpujarPage] = [.dashboard, .hitchhikings, .qrScanner, .kitInSwiftUiEx, .myViewBuilderEx]
-    init() {
+    private let vm: HomeVM
+    
+    init(delegate: HomeTabViewDelegate?) {
         NavigationUtils.setAppearance(backgroundColor: .systemGray6)
+        vm = HomeVM(delegate: delegate)
     }
     
     
@@ -44,7 +59,7 @@ struct HomeTabView: View {
                             Text("Kit in SwiftUI")
                         }
                 case .myViewBuilderEx:
-                    MyViewBuilderEx()
+                    MyViewBuilderEx(homeVM: vm)
                         .tabItem() {
                             Image(systemName: "square.and.pencil.circle")
                             Text("View Builder example")
@@ -58,7 +73,7 @@ struct HomeTabView: View {
 
 struct HomeTabView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeTabView()
+        HomeTabView(delegate: nil)
     }
 }
 
